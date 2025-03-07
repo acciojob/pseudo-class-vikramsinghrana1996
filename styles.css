@@ -1,4 +1,3 @@
-/*  your css code here. If applicable */
 
 #container {
     margin: 20px;
@@ -8,7 +7,7 @@
 }
 
 #container::before {
-    content: "Special Text Before";
+    content: "Before Element";
     display: block;
     color: #f00;
     font-size: 20px;
@@ -17,7 +16,7 @@
 }
 
 #container::after {
-    content: "Special Text After";
+    content: "After Element";
     display: block;
     color: #f00;
     font-size: 20px;
