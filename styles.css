@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+
+#container {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#container::before {
+    content: "Special Text Before";
+    display: block;
+    color: #f00;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#container::after {
+    content: "Special Text After";
+    display: block;
+    color: #f00;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
